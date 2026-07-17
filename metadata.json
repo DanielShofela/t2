@@ -1,0 +1,6 @@
+{
+  "name": "Landing Page 2NG Groupe",
+  "description": "Recevez gratuitement les nouvelles offres d'emploi, stages et opportunités professionnelles directement sur WhatsApp grâce à 2NG Groupe Entreprise.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
