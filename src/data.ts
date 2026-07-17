@@ -11,7 +11,7 @@ export interface StatisticItem {
   label: string;
 }
 
-export const WHATSAPP_CHANNEL_URL = "https://whatsapp.com/channel/XXXXXXXX";
+export const WHATSAPP_CHANNEL_URL = "https://whatsapp.com/channel/0029VbCsxMFFXUuiSbrLBp0H";
 
 export const BRAND_INFO = {
   name: "2NG Groupe Entreprise",
