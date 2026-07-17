@@ -21,15 +21,8 @@ export default function Header() {
           </div>
         </div>
 
-        {/* Navigation Badges & Meta partner badge in clean minimalism */}
-        <div className="hidden md:flex items-center gap-6 text-xs font-semibold text-[#0B1F4D]/60">
-          <span className="hover:text-[#FF6A00] transition-colors cursor-pointer">Offres</span>
-          <span className="hover:text-[#FF6A00] transition-colors cursor-pointer">Stages</span>
-          <span className="hover:text-[#FF6A00] transition-colors cursor-pointer">Recrutements</span>
-          <span className="px-3.5 py-1.5 bg-gray-50 text-[10px] text-gray-500 rounded-full border border-gray-100 tracking-wider">
-            Partenaire Meta
-          </span>
-        </div>
+        {/* Header content matches minimalism, space reserved */}
+        <div className="hidden md:block flex-1" />
 
         {/* Dynamic CTA Header Button */}
         <motion.a
