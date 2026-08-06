@@ -20,7 +20,7 @@ export default function Hero() {
               transition={{ duration: 0.6, ease: "easeOut" }}
               className="inline-flex items-center px-4 py-1.5 rounded-full bg-[#FFF1E7] text-[#FF6A00] text-[10px] sm:text-xs font-bold tracking-widest uppercase mb-6 shadow-xs border border-[#FFF1E7]"
             >
-              <UserCheck className="w-3.5 h-3.5 mr-2 text-[#FF6A00]" /> Service de Création de CV Pro
+              <UserCheck className="w-3.5 h-3.5 mr-2 text-[#FF6A00]" /> CV à 3 000 F • Lettre à 2 000 F • Pack Duo à 4 500 F
             </motion.div>
 
             {/* Main Heading focused on CV creation service */}

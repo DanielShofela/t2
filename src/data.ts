@@ -14,8 +14,75 @@ export interface StatisticItem {
 // WhatsApp channel URL (Secondary)
 export const WHATSAPP_CHANNEL_URL = "https://whatsapp.com/channel/0029VbCsxMFFXUuiSbrLBp0H";
 
-// Direct WhatsApp conversation link for CV Creation Service (+2250170561121)
-export const WHATSAPP_CV_URL = "https://wa.me/2250170561121?text=Bonjour%202NG%20Groupe%20Entreprise%2C%20je%20souhaite%20commander%20un%20CV%20professionnel%20et%20b%C3%A9n%C3%A9ficier%20de%20votre%20service%20de%20cr%C3%A9ation%20de%20CV.";
+// Direct WhatsApp links for specific packages (+2250170561121)
+export const WHATSAPP_CV_URL = "https://wa.me/2250170561121?text=Bonjour%202NG%20Groupe%20Entreprise%2C%20je%20souhaite%20commander%20un%20CV%20professionnel%20(3%20000%20FCFA).";
+export const WHATSAPP_LETTRE_URL = "https://wa.me/2250170561121?text=Bonjour%202NG%20Groupe%20Entreprise%2C%20je%20souhaite%20commander%20une%20Lettre%20de%20Motivation%20(2%20000%20FCFA).";
+export const WHATSAPP_PACK_URL = "https://wa.me/2250170561121?text=Bonjour%202NG%20Groupe%20Entreprise%2C%20je%20souhaite%20commander%20le%20Pack%20Complet%20CV%20%2B%20Lettre%20de%20Motivation%20(4%20500%20FCFA).";
+
+export interface PricingPackage {
+  id: string;
+  name: string;
+  tagline: string;
+  price: string;
+  originalPrice?: string;
+  badge?: string;
+  isPopular?: boolean;
+  features: string[];
+  ctaText: string;
+  whatsappUrl: string;
+}
+
+export const PRICING_PACKAGES: PricingPackage[] = [
+  {
+    id: "cv-pro",
+    name: "CV Professionnel",
+    tagline: "Un CV moderne et percutant pour valoriser votre parcours.",
+    price: "3 000 FCFA",
+    features: [
+      "Mise en page professionnelle & moderne",
+      "Structure optimisée pour recuteurs & ATS",
+      "Mise en valeur de vos réalisations",
+      "Format PDF + Word réutilisable",
+      "Livraison rapide en 24h à 48h sur WhatsApp"
+    ],
+    ctaText: "Commander mon CV (3 000 F)",
+    whatsappUrl: WHATSAPP_CV_URL
+  },
+  {
+    id: "pack-complet",
+    name: "Pack Complet CV + Lettre",
+    tagline: "La formule gagnante pour maximiser vos chances d'entretien.",
+    price: "4 500 FCFA",
+    originalPrice: "5 000 FCFA",
+    badge: "RECOMMANDÉ - ÉCONOMISEZ 500 F",
+    isPopular: true,
+    features: [
+      "CV Professionnel complet & percutant",
+      "Lettre de Motivation ciblée & personnalisée",
+      "Harmonie graphique & rédactionnelle parfaite",
+      "Modèles modifiables et prêts à envoyer",
+      "Accompagnement & révisions incluses",
+      "Traitement prioritaire"
+    ],
+    ctaText: "Commander le Pack (4 500 F)",
+    whatsappUrl: WHATSAPP_PACK_URL
+  },
+  {
+    id: "lettre-motivation",
+    name: "Lettre de Motivation",
+    tagline: "Une lettre captivante rédigée pour le poste que vous visiez.",
+    price: "2 000 FCFA",
+    features: [
+      "Rédaction personnalisée selon le secteur",
+      "Argumentaire convaincant & accrocheur",
+      "Soin de l'orthographe et du style",
+      "Format adaptable à plusieurs candidatures",
+      "Livraison directe sur WhatsApp"
+    ],
+    ctaText: "Commander la Lettre (2 000 F)",
+    whatsappUrl: WHATSAPP_LETTRE_URL
+  }
+];
 
 export const BRAND_INFO = {
   name: "2NG Groupe Entreprise",

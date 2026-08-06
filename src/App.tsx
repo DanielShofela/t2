@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Advantages from "./components/Advantages";
+import Pricing from "./components/Pricing";
 import Trust from "./components/Trust";
 import CTA from "./components/CTA";
 import Footer from "./components/Footer";
@@ -21,6 +22,9 @@ export default function App() {
       <main>
         {/* Hero Banner with Pulsating Primary CTA */}
         <Hero />
+
+        {/* Clear Pricing Section: CV (3,000 F), Lettre (2,000 F), Pack Duo (4,500 F) */}
+        <Pricing />
 
         {/* 6 Grid Advantage Cards */}
         <Advantages />
