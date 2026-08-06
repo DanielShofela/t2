@@ -132,7 +132,7 @@ export default function Hero() {
                 </div>
                 <div className="flex flex-col text-left">
                   <span className="text-xs font-bold text-[#0B1F4D]">Création de CV Pro</span>
-                  <span className="text-[10px] text-gray-500">Contact direct +225 01 70 56 11 21</span>
+                  <span className="text-[10px] text-gray-500">Contact direct +225 05 74 27 88 18</span>
                 </div>
               </div>
             </div>

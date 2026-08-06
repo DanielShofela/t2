@@ -132,7 +132,7 @@ export default function Pricing() {
 
         {/* Reassurance text below pricing */}
         <div className="mt-12 text-center text-xs text-gray-500 font-medium">
-          💡 Vous ne savez pas quel formule choisir ? Contactez-nous au <span className="font-bold text-[#0B1F4D]">+225 01 70 56 11 21</span> pour un conseil gratuit.
+          💡 Vous ne savez pas quel formule choisir ? Contactez-nous au <span className="font-bold text-[#0B1F4D]">+225 05 74 27 88 18</span> pour un conseil gratuit.
         </div>
       </div>
     </section>

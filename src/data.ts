@@ -14,10 +14,10 @@ export interface StatisticItem {
 // WhatsApp channel URL (Secondary)
 export const WHATSAPP_CHANNEL_URL = "https://whatsapp.com/channel/0029VbCsxMFFXUuiSbrLBp0H";
 
-// Direct WhatsApp links for specific packages (+2250170561121)
-export const WHATSAPP_CV_URL = "https://wa.me/2250170561121?text=Bonjour%202NG%20Groupe%20Entreprise%2C%20je%20souhaite%20commander%20un%20CV%20professionnel%20(3%20000%20FCFA).";
-export const WHATSAPP_LETTRE_URL = "https://wa.me/2250170561121?text=Bonjour%202NG%20Groupe%20Entreprise%2C%20je%20souhaite%20commander%20une%20Lettre%20de%20Motivation%20(2%20000%20FCFA).";
-export const WHATSAPP_PACK_URL = "https://wa.me/2250170561121?text=Bonjour%202NG%20Groupe%20Entreprise%2C%20je%20souhaite%20commander%20le%20Pack%20Complet%20CV%20%2B%20Lettre%20de%20Motivation%20(4%20500%20FCFA).";
+// Direct WhatsApp links for specific packages (+2250574278818)
+export const WHATSAPP_CV_URL = "https://wa.me/2250574278818?text=Bonjour%202NG%20Groupe%20Entreprise%2C%20je%20souhaite%20commander%20un%20CV%20professionnel%20(3%20000%20FCFA).";
+export const WHATSAPP_LETTRE_URL = "https://wa.me/2250574278818?text=Bonjour%202NG%20Groupe%20Entreprise%2C%20je%20souhaite%20commander%20une%20Lettre%20de%20Motivation%20(2%20000%20FCFA).";
+export const WHATSAPP_PACK_URL = "https://wa.me/2250574278818?text=Bonjour%202NG%20Groupe%20Entreprise%2C%20je%20souhaite%20commander%20le%20Pack%20Complet%20CV%20%2B%20Lettre%20de%20Motivation%20(4%20500%20FCFA).";
 
 export interface PricingPackage {
   id: string;

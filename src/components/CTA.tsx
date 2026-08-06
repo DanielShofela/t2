@@ -39,7 +39,7 @@ export default function CTA() {
           transition={{ duration: 0.6, delay: 0.1 }}
           className="font-sans text-white/80 text-base sm:text-lg md:text-xl font-light mb-8 max-w-xl mx-auto"
         >
-          Contactez-nous sur WhatsApp au +225 01 70 56 11 21 pour commander la rédaction de votre CV sur-mesure.
+          Contactez-nous sur WhatsApp au +225 05 74 27 88 18 pour commander la rédaction de votre CV sur-mesure.
         </motion.p>
 
         {/* Primary Foreground Button: Commander mon CV */}

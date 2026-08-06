@@ -37,7 +37,7 @@ export default function FloatingCTA() {
                   Création de CV Pro
                 </span>
                 <span className="text-xs text-white font-medium">
-                  Commandez votre CV sur WhatsApp (+225 01 70 56 11 21)
+                  Commandez votre CV sur WhatsApp (+225 05 74 27 88 18)
                 </span>
               </div>
 
