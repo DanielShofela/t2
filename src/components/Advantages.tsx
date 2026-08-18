@@ -45,10 +45,10 @@ export default function Advantages() {
         <div className="mb-10 text-left">
           <h2 className="text-xs font-bold uppercase tracking-widest text-[#FF6A00] mb-4 flex items-center">
             <span className="w-8 h-[2px] bg-[#FF6A00] mr-3 rounded-full"></span>
-            Pourquoi faire concevoir votre CV par 2NG Groupe ?
+            Pourquoi rejoindre notre chaîne ?
           </h2>
           <h3 className="font-display font-black text-2xl sm:text-3xl text-[#0B1F4D] tracking-tight">
-            Des CVs professionnels sur-mesure conçus pour maximiser vos chances
+            Des avantages exclusifs pour votre carrière
           </h3>
         </div>
 
